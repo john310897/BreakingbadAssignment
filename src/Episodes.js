@@ -19,7 +19,7 @@ function Episodes(){
             <div className='card-columns'>
             {
                 items.map(item=>(
-                    <Link to={`/episodedetails/${item.episode_id}`}><div className='card bg-light text-center'>
+                    <Link to={`/episodedetails/${item.episode_id}`} id='linkto'><div className='card text-center'>
                     <br/><h2>EPISODE:{item.episode_id}</h2><br/>
                     <h4>{item.title}</h4>
                     </div></Link>

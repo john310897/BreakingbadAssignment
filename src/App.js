@@ -8,7 +8,8 @@ import Login from './Login';
 import SignUp from './SignUp';
 import Episodes from './Episodes';
 import Episodedetails from './Episodedetails';
-
+import ForgotPassword from './forgotpassword';
+import Allcharecters from './Allcharecters';
 function App() {
   return (
     <Router>
@@ -18,6 +19,8 @@ function App() {
           <Route path='/home' exact component={Home}/>
           <Route path='/episodes' exact component={Episodes}/>
           <Route path='/episodedetails/:id' exact component={Episodedetails}/>
+          <Route path='/forgotpassword' exact component={ForgotPassword}/>
+          <Route path='/allcharecters' exact component={Allcharecters}/>
       </Switch>
     </Router>
   );

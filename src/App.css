@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url("bg.jpg");
+  color: burlywood;
+}
+.responsive{
+  height: 400px;
+  width: 100%;
+}
+#charecterbox{
+  width: 600px;
+  height: 400px;
+}
+#authbox{
+  width:500px;
+
+}
+.card{
+  background-color: rgb(0,0,0);
+}
+#linkto{
+  text-decoration: none;
+  color: inherit;
+}

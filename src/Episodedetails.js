@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from 'react'
-import {Link} from 'react-router-dom';
 function Episodedetails({match}){
     
     useEffect(()=>{
@@ -16,34 +15,28 @@ function Episodedetails({match}){
     return(
         
         <div className='container'>
-            <h1 align='center'>Characters List</h1>
+            <h1 align='center'>Characters List</h1><br/><br/>
             {   
                 items.map((item)=>
                 (
                     
-                    
                         <div className='card-columns'>
-                            
-                                <h4 className='card bg-light text-center'>{item.characters[0]}</h4>
-                                <h4 className='card bg-light text-center'>{item.characters[1]}</h4>
-                                <h4 className='card bg-light text-center'>{item.characters[2]}</h4>
-                                <h4 className='card bg-light text-center'>{item.characters[3]}</h4>
-                                <h4 className='card bg-light text-center'>{item.characters[4]}</h4>
-                                <h4 className='card bg-light text-center'>{item.characters[5]}</h4>
-                                <h4 className='card bg-light text-center'>{item.characters[5]}</h4>
-                                <h4 className='card bg-light text-center'>{item.characters[6]}</h4>
-                                <h4 className='card bg-light text-center'>{item.characters[7]}</h4>
-                                <h4 className='card bg-light text-center'>{item.characters[8]}</h4>  
-                                <h4 className='card bg-light text-center'>{item.characters[9]}</h4>  
-                                <h4 className='card bg-light text-center'>{item.characters[10]}</h4>   
+                                <h4 className='card  text-center'>{item.characters[0]}</h4>
+                                <h4 className='card  text-center'>{item.characters[1]}</h4>
+                                <h4 className='card  text-center'>{item.characters[2]}</h4>
+                                <h4 className='card  text-center'>{item.characters[3]}</h4>
+                                <h4 className='card  text-center'>{item.characters[4]}</h4>
+                                <h4 className='card  text-center'>{item.characters[5]}</h4>
+                                <h4 className='card  text-center'>{item.characters[5]}</h4>
+                                <h4 className='card  text-center'>{item.characters[6]}</h4>
+                                <h4 className='card  text-center'>{item.characters[7]}</h4>
+                                <h4 className='card  text-center'>{item.characters[8]}</h4>  
+                                <h4 className='card  text-center'>{item.characters[9]}</h4>  
+                                <h4 className='card  text-center'>{item.characters[10]}</h4>   
                       </div>
-                    
-                    
                 ))
-            }
-        
+            }  
         </div>
     );
-    
 }
 export default Episodedetails;
