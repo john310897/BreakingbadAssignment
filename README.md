@@ -1,4 +1,4 @@
 This application provides the details about episodes, charecters and there appearences in breaking bad.
-i been working on react for a week now, so this assignment was really challenging to me especially in displaying charecters of the specific episode
-I had no good experience and knowledge about loops yet in react but i tried my best to render out the charecters in an alternative way,
-well for the further improvement i would like to optimize my code and do the loop if possible for listing out charecters of specific episode, and i would really improve the frontend design and make it more attractive and user friendly.
+i been working on react for a week now, so this assignment was really challenging to me 
+
+well for the further improvement i would like to optimize my code, and i would really improve the frontend design and make it more attractive and user friendly.
